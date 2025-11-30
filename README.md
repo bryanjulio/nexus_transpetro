@@ -361,6 +361,14 @@ IMPACTO ECONÔMICO TOTAL DA FROTA:
 
 Desenvolvido para o Hackathon Transpetro 2025
 
+### Integrantes
+
+- **Milena Lopes Calasans de Souza** - milena.lcalasans@gmail.com
+- **Bryan Rodrigues Julio** - bryan.19julio@gmail.com
+- **Ana Clara O. Damasceno** - aclaradamas@gmail.com
+- **Giovana Dovich Costa** - giovanadovich@usp.br
+- **Kauany Castro** - Ksccastro230404@gmail.com
+
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins educacionais e de competição no Hackathon Transpetro 2025.

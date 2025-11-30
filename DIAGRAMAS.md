@@ -55,10 +55,10 @@ graph TB
 
     Report --> End([Fim])
 
-    style Start fill:#90EE90
-    style End fill:#90EE90
-    style Ensemble fill:#FFD700
-    style Report fill:#87CEEB
+    style Start fill:#519CAB,color:#FFF
+    style End fill:#519CAB,color:#FFF
+    style Ensemble fill:#FFC64F,color:#000
+    style Report fill:#20373B,color:#FFF
 ```
 
 ---
@@ -149,10 +149,10 @@ flowchart LR
     EC --> RP
     SC --> RP
 
-    style Input fill:#E8F5E9
-    style Process fill:#FFF3E0
-    style ML fill:#E3F2FD
-    style Output fill:#F3E5F5
+    style Input fill:#C3E7F1,color:#000
+    style Process fill:#FFC64F,color:#000
+    style ML fill:#519CAB,color:#FFF
+    style Output fill:#20373B,color:#FFF
 ```
 
 ---
@@ -211,10 +211,10 @@ graph TD
         FR --> BRS[biofouling_risk_score<br/>0-1]
     end
 
-    style Raw fill:#FFEBEE
-    style Aggregated fill:#FFF9C4
-    style Advanced fill:#C8E6C9
-    style Target fill:#BBDEFB
+    style Raw fill:#C3E7F1,color:#000
+    style Aggregated fill:#FFC64F,color:#000
+    style Advanced fill:#519CAB,color:#FFF
+    style Target fill:#20373B,color:#FFF
 ```
 
 ---
@@ -277,10 +277,10 @@ graph TB
     TE --> EVAL[Avaliação]
     METRICS --> EVAL
 
-    style Data fill:#E8F5E9
-    style Models fill:#FFF3E0
-    style Ensemble fill:#FFD700
-    style METRICS fill:#4CAF50,color:#FFF
+    style Data fill:#C3E7F1,color:#000
+    style Models fill:#FFC64F,color:#000
+    style Ensemble fill:#519CAB,color:#FFF
+    style METRICS fill:#20373B,color:#FFF
 ```
 
 ---
@@ -319,10 +319,10 @@ flowchart TD
 
     Report --> End([Fim])
 
-    style Start fill:#90EE90
-    style Calc fill:#FFD700
-    style Report fill:#87CEEB
-    style End fill:#90EE90
+    style Start fill:#519CAB,color:#FFF
+    style Calc fill:#FFC64F,color:#000
+    style Report fill:#20373B,color:#FFF
+    style End fill:#519CAB,color:#FFF
 ```
 
 ---
@@ -373,11 +373,11 @@ graph TB
 
     Output --> End([Fim])
 
-    style Start fill:#90EE90
-    style S1 fill:#FFCDD2
-    style S2 fill:#C8E6C9
-    style Decision fill:#FFD700
-    style End fill:#90EE90
+    style Start fill:#519CAB,color:#FFF
+    style S1 fill:#C3E7F1,color:#000
+    style S2 fill:#20373B,color:#FFF
+    style Decision fill:#FFC64F,color:#000
+    style End fill:#519CAB,color:#FFF
 ```
 
 ---
@@ -422,13 +422,13 @@ graph TD
     NoTravel --> End
     Emergency --> End
 
-    style Start fill:#90EE90
-    style OK fill:#C8E6C9
-    style Proactive fill:#FFF59D
-    style Reactive fill:#FFCC80
-    style Urgent fill:#EF9A9A
-    style Critical fill:#E57373
-    style End fill:#90EE90
+    style Start fill:#519CAB,color:#FFF
+    style OK fill:#C3E7F1,color:#000
+    style Proactive fill:#FFC64F,color:#000
+    style Reactive fill:#519CAB,color:#FFF
+    style Urgent fill:#20373B,color:#FFF
+    style Critical fill:#20373B,color:#FFF
+    style End fill:#519CAB,color:#FFF
 ```
 
 ---
@@ -506,50 +506,17 @@ graph TB
     Dashboard --> Mongo
     Mobile --> Mongo
 
-    style Sources fill:#E8F5E9
-    style ETL fill:#FFF3E0
-    style ML fill:#E3F2FD
-    style API fill:#F3E5F5
-    style App fill:#FFE0B2
-    style Storage fill:#CFD8DC
+    style Sources fill:#C3E7F1,color:#000
+    style ETL fill:#FFC64F,color:#000
+    style ML fill:#519CAB,color:#FFF
+    style API fill:#20373B,color:#FFF
+    style App fill:#519CAB,color:#FFF
+    style Storage fill:#20373B,color:#FFF
 ```
 
 ---
 
-## 9. Timeline de Desenvolvimento
-
-```mermaid
-gantt
-    title Roadmap NEXUS - Sistema de Predição de Bioincrustação
-    dateFormat YYYY-MM-DD
-    section Fase 1: MVP
-    Modelo de Predição           :done, mvp1, 2025-11-01, 2025-11-30
-    Análise Impacto Econômico    :done, mvp2, 2025-11-15, 2025-11-30
-    Relatório da Frota           :done, mvp3, 2025-11-25, 2025-11-30
-    Dashboard Streamlit          :active, mvp4, 2025-12-01, 2025-12-15
-
-    section Fase 2: Produção
-    API REST                     :prod1, 2025-12-15, 2026-01-15
-    Sistema de Alertas           :prod2, 2026-01-01, 2026-02-01
-    Dashboard Tempo Real         :prod3, 2026-01-15, 2026-02-15
-    Integração Sistemas          :prod4, 2026-02-01, 2026-03-01
-
-    section Fase 3: Otimização
-    Deep Learning LSTM           :opt1, 2026-03-01, 2026-04-15
-    Dados Meteorológicos         :opt2, 2026-03-15, 2026-05-01
-    Otimização Cronograma        :opt3, 2026-04-01, 2026-05-15
-    Módulo BI                    :opt4, 2026-05-01, 2026-06-01
-
-    section Fase 4: Expansão
-    Expansão Frota Completa      :exp1, 2026-06-01, 2026-07-15
-    Predição Trajetória          :exp2, 2026-07-01, 2026-08-15
-    Roteamento Otimizado         :exp3, 2026-08-01, 2026-09-15
-    App Mobile                   :exp4, 2026-09-01, 2026-10-15
-```
-
----
-
-## 10. Mapa de Stakeholders
+## 9. Mapa de Stakeholders
 
 ```mermaid
 mindmap
